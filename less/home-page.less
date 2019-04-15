@@ -12,9 +12,9 @@
     }
 
     p {
-      padding:0 15px;
+      padding: 0 15px;
     }
-  
+
   }
 
   .space-images {
@@ -61,13 +61,25 @@
       }
 
       .btn {
+        width: 100px;
+        padding: 10px;
+        padding-left: 15px;
+        border-radius: 10px;
+        background-color: @btn-bg-color;
+        color: white;
+        font-size: 2em;
+        cursor: pointer;
+        &:hover {
+          background-color: @shuttle-gray
+      }
+        
       }
     }
 
     .walk-img {
       width: 46%;
       margin-left: 4%;
-      
+
       img {
         width: 100%;
         height: auto;
@@ -75,4 +87,6 @@
       }
     }
   }
-}// home
+}
+
+// home
